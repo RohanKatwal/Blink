@@ -45,8 +45,17 @@ h1 span:nth-child(6)
 {
     animation-delay: 0.10s;
 }
+h1 span:nth-child(7)
+{
+    animation-delay: 0.8s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 0.10s;
+}
+
 @keyframes animate{
-    0%,80%{
+    0%,100%{
         color:#333;
         text-shadow: none;
     }
@@ -58,6 +67,6 @@ h1 span:nth-child(6)
         0 0 80px #fff,
         0 0 120px #fff,
         0 0 160px #fff;
+        
     }
 }
- 
